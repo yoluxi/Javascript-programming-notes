@@ -1,0 +1,31 @@
+{
+  "name": "javascript-programming-notes",
+  "version": "1.0.0",
+  "description": "notes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyoluxi/Javascript-programming-notes.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "lixu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoyoluxi/Javascript-programming-notes/issues"
+  },
+  "homepage": "https://github.com/yoyoluxi/Javascript-programming-notes#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
