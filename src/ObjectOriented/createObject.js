@@ -128,7 +128,7 @@ function Person(name, age) {
 }
 
 
-// 寄生构模式
+// 寄生构构造模式
 function Person(name, age, job){
     var o = new Object();
     o.name = name;
@@ -156,6 +156,14 @@ function specialArray() {
 
 
 // 稳妥构造函数模式
+function Person(name, age) {
+    var o = new Object();
+    o.sayName = function() {
+        alert(name);
+    }
+    return 0;
+}
 
-
+var person = Person("Nicholas");
+person.sayName()
 

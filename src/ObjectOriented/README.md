@@ -140,9 +140,7 @@ ES5 Object.keys(实例对象) 返回 [property1, property2]
 于寄生构造模式类似，不定义属性，构造函数的参数会作为私有变量供其方法使用，保证安全性。
 稳妥对象：没有公共属性，而且其方法也不引用this的对象
 
-使用场景：安全环境（禁用new或者this）或者防止数据被其他应用程序（如Mashup程序）改动时使用
+使用场景：安全环境（禁用new或者this）或者防止数据被其他应用程序（[Mashup程序](https://msdn.microsoft.com/zh-cn/library/bb906060.aspx) 改动时使用
+
 注意：产生的实例跟构造函数没什么关系
-
 ```
-
-<a src="https://msdn.microsoft.com/zh-cn/library/bb906060.aspx">Mashup程序</a>
